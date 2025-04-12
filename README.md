@@ -2,6 +2,26 @@
 
 A custom WordPress slider plugin that supports icons, titles, slide images, and before/after image comparison.
 
+## Table of Contents
+
+- [Features](#features)
+- [Usage](#usage)
+  - [Creating Slides](#creating-slides)
+  - [Creating Galleries](#creating-galleries)
+  - [Shortcodes](#shortcodes)
+  - [Settings](#settings)
+  - [Custom CSS Classes](#custom-css-classes)
+  - [Shortcode Parameters](#shortcode-parameters)
+  - [Example CSS Usage](#example-css-usage)
+- [Third-Party Tools](#third-party-tools)
+  - [TwentyTwenty](#twentytwenty)
+  - [Usage with TwentyTwenty](#usage-with-twentytwenty)
+- [Support](#support)
+- [Contributing](#contributing)
+  - [Creating Issues](#creating-issues)
+  - [Pull Requests](#pull-requests)
+  - [Development Guidelines](#development-guidelines)
+
 ## Features
 
 - Create beautiful sliders with before/after image comparison
@@ -143,8 +163,6 @@ The plugin automatically initializes the TwentyTwenty slider for all before-and-
 
 ## Support
 
-## Support
-
 For support or feature requests, please contact us at chalist1@gmail.com. While I may not be able to respond to all emails immediately, I will make every effort to address your questions or update requests as soon as possible. 
 
 **If you have ideas for improving the plugin, please share them with me so I can consider adding them in future updates.**
@@ -189,3 +207,22 @@ When contributing code, please follow these guidelines:
 - Test your changes in various environments before submitting
 
 We appreciate your interest in making CH Before & After better for everyone!
+
+
+## Donations
+
+If you find this plugin useful and would like to support its continued development, consider making a donation. Your contributions help maintain and improve the plugin for everyone.
+
+### Cryptocurrency Donations
+
+I accept donations in the following cryptocurrencies:
+
+| Cryptocurrency | Address |
+|----------------|---------|
+| Bitcoin (BTC) | `bc1pg0rtkcvet57fumpe3gxkyq28a39k8t4urk2q084ly7pcl7ukakms23yumj` |
+| Ethereum (ETH) | `0xe4d6569afb59C8944594E99544bb7E3ea5391945` |
+| Ton | `UQB8QIXJ8UoDxusXzfI1YxHgokmmOwTSCiCX4Mz_-3CLwfeL` |
+| Doge  | `0xe4d6569afb59C8944594E99544bb7E3ea5391945` |
+| Solana (SOL) | `2SDSajo7RwWsHMg5r7XDhAyzcKphwv2YBEmYKsNekUej` |
+
+Your support is greatly appreciated and helps us dedicate more time to developing and maintaining this plugin. Thank you!
