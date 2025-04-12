@@ -1,6 +1,9 @@
 # CH Before & After Plugin
 
-A custom WordPress slider plugin that supports icons, titles, slide images, and before/after image comparison.
+A custom WordPress Before and After slider plugin that supports before/after image comparison with title and description for the gallery and each slide.
+
+![gallery](https://github.com/user-attachments/assets/364c444f-250a-4c43-90d7-f827c4692be7)
+
 
 ## Table of Contents
 
