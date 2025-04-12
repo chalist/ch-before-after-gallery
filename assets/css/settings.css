@@ -1,0 +1,59 @@
+.ch-before-after-input-controller {
+    clear: both;
+    padding: 10px 0;
+}
+
+.ch-before-after-input-controller label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.ch-before-after-input-controller input[type="text"],
+.ch-before-after-input-controller input[type="number"],
+.ch-before-after-input-controller select {
+    width: 100%;
+    max-width: 400px;
+}
+
+.ch-before-after-checkbox-controller {
+    clear: both;
+    padding: 10px 0;
+}
+
+.ch-before-after-checkbox-controller label {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.ch-before-after-settings-section {
+    margin-bottom: 20px;
+}
+
+.ch-before-after-settings-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.ch-before-after-settings-description {
+    margin-bottom: 15px;
+}
+
+.ch-before-after-submit-button {
+    margin-top: 20px;
+}
+
+.ch-before-after-colorpicker-controller {
+    clear: both;
+    padding: 10px 0;
+}
+
+.ch-before-after-colorpicker-controller label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.ch-before-after-colorpicker-controller .wp-picker-container {
+    display: inline-block;
+}

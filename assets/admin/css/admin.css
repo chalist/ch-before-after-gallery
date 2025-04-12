@@ -1,0 +1,92 @@
+/**
+ * CH Before After Admin Styles
+ */
+
+.ch-before-after-metabox {
+    margin: 15px 0;
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.ch-before-after-image-preview {
+    margin-bottom: 15px;
+    min-height: 50px;
+    padding: 10px;
+    background: #fff;
+    border: 1px dashed #ccc;
+    text-align: center;
+}
+
+.ch-before-after-image-preview:empty {
+    padding: 25px;
+}
+
+.ch-before-after-upload-icon,
+.ch-before-after-upload-image,
+.ch-before-after-remove-icon,
+.ch-before-after-remove-image {
+    margin-right: 5px;
+}
+
+.ch-before-after-metabox img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    padding: 3px;
+    background: #fff;
+}
+
+/* Hide default WP metabox styling when fullscreen mode is active */
+.block-editor-page .ch-before-after-metabox {
+    margin: 0;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    box-shadow: none;
+}
+
+/* Button styling */
+.ch-before-after-upload-icon,
+.ch-before-after-upload-image {
+    background: #0073aa;
+    color: #fff;
+    border-color: #0073aa;
+}
+
+.ch-before-after-remove-icon,
+.ch-before-after-remove-image {
+    background: #ca4a1f;
+    color: #fff;
+    border-color: #ca4a1f;
+}
+
+/* Improve responsive behavior */
+@media screen and (max-width: 782px) {
+    .ch-before-after-metabox {
+        padding: 10px;
+    }
+
+    .ch-before-after-upload-icon,
+    .ch-before-after-upload-image,
+    .ch-before-after-remove-icon,
+    .ch-before-after-remove-image {
+        padding: 8px 14px;
+        line-height: 2.15384615;
+        min-height: 30px;
+    }
+}
+
+/* Fix for media uploader buttons */
+.media-modal .media-frame-toolbar .media-toolbar-primary .media-button {
+    margin-top: 10px;
+}
+
+/* Hide any CSP error messages that might appear */
+[data-report-errors] {
+    display: none !important;
+}

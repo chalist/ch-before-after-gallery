@@ -1,0 +1,55 @@
+/**
+ * CH Before & After Admin Settings CSS
+ */
+
+.ch-before-after-settings .form-table th {
+    font-weight: 600;
+    padding: 15px 10px 15px 0;
+}
+
+.ch-before-after-settings .form-table td {
+    padding: 15px 10px;
+}
+
+.ch-before-after-settings .regular-text {
+    width: 100%;
+    max-width: 400px;
+}
+
+.ch-before-after-settings p.description {
+    margin-top: 5px;
+    font-style: italic;
+    color: #666;
+}
+
+.ch-before-after-settings .submit {
+    padding: 15px 0;
+}
+
+/* Two-column layout for CSS classes section */
+.ch-before-after-settings #ch_before_after_css_section {
+    margin-top: 20px;
+}
+
+.ch-before-after-settings .css-classes-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.ch-before-after-settings .css-class-column {
+    flex: 1;
+    min-width: 300px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.ch-before-after-settings .css-class-column .form-table {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 782px) {
+    .ch-before-after-settings .css-class-column {
+        min-width: 100%;
+    }
+}

@@ -1,0 +1,88 @@
+.ch-before-after-slides {
+    position: relative;
+    overflow: hidden;
+}
+
+.ch-before-after-slide {
+    position: relative;
+    overflow: hidden;
+}
+
+.ch-before-after-before-image,
+.ch-before-after-after-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.ch-before-after-before-image img,
+.ch-before-after-after-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ch-before-after-after-image {
+    width: 50%;
+}
+
+.ch-before-after-slider-handle {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    margin-left: -2px;
+    background: rgba(255, 255, 255, 0.8);
+    cursor: ew-resize;
+}
+
+.ch-before-after-slider-handle:after {
+    position: absolute;
+    top: 50%;
+    width: 44px;
+    height: 44px;
+    margin: -22px 0 0 -22px;
+    content: '\21d4';
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    line-height: 44px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.ch-before-after-slide:hover .ch-before-after-slider-handle:after {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.ch-before-after-before-label,
+.ch-before-after-after-label {
+    position: absolute;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    top: 10px;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.ch-before-after-before-label {
+    left: 10px;
+}
+
+.ch-before-after-after-label {
+    right: 10px;
+}

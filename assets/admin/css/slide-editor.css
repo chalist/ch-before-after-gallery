@@ -1,0 +1,107 @@
+/**
+ * Three-column layout for CH Before & After slide editor
+ */
+
+/* Hide the default meta boxes first */
+#ch_before_after_icon,
+#ch_before_after_image,
+#ch_before_after_image_2,
+#postdivrich {
+    display: none;
+}
+
+/* Create the container for our custom layout */
+.ch-before-after-editor-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px -10px;
+}
+
+/* Create column styling */
+.ch-before-after-editor-column {
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+/* Set specific widths for each column */
+.ch-before-after-icon-column {
+    width: 20%;
+}
+
+.ch-before-after-images-column {
+    width: 40%;
+}
+
+.ch-before-after-content-column {
+    width: 40%;
+}
+
+/* Style the sections inside columns */
+.ch-before-after-section {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.ch-before-after-section h3 {
+    font-size: 14px;
+    margin: 0 0 15px;
+    padding: 0 0 8px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Image preview styling */
+.ch-before-after-image-preview {
+    margin-bottom: 10px;
+    min-height: 50px;
+    background: #f9f9f9;
+    border: 1px dashed #ddd;
+    padding: 5px;
+    text-align: center;
+}
+
+.ch-before-after-image-preview img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Icon column specifics */
+.ch-before-after-icon-column .ch-before-after-image-preview {
+    max-width: 100px;
+    margin: 0 auto 10px;
+}
+
+/* Button styling */
+.ch-before-after-section .button {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+/* Handle smaller screens */
+@media screen and (max-width: 1200px) {
+    .ch-before-after-icon-column {
+        width: 30%;
+    }
+
+    .ch-before-after-images-column {
+        width: 70%;
+    }
+
+    .ch-before-after-content-column {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 782px) {
+
+    .ch-before-after-icon-column,
+    .ch-before-after-images-column,
+    .ch-before-after-content-column {
+        width: 100%;
+    }
+}

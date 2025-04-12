@@ -1,0 +1,27 @@
+/**
+ * CH Before & After Admin Settings CSS
+ */
+
+.ch-before-after-settings .form-table th {
+    font-weight: 600;
+    padding: 15px 10px 15px 0;
+}
+
+.ch-before-after-settings .form-table td {
+    padding: 15px 10px;
+}
+
+.ch-before-after-settings .regular-text {
+    width: 100%;
+    max-width: 400px;
+}
+
+.ch-before-after-settings p.description {
+    margin-top: 5px;
+    font-style: italic;
+    color: #666;
+}
+
+.ch-before-after-settings .submit {
+    padding: 15px 0;
+}

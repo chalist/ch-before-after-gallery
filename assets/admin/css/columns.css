@@ -1,0 +1,93 @@
+/**
+ * Admin Columns Styles for CH Before After
+ */
+
+/* Hide the default date column to free up space */
+.fixed .column-date {
+    width: 10%;
+}
+
+.ch-before-after-shortcode-wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.ch-before-after-shortcode {
+    flex-grow: 1;
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 6px 8px;
+    font-family: Consolas, Monaco, monospace;
+    font-size: 13px;
+    margin-right: 5px;
+    border-radius: 3px;
+    max-width: 320px;
+    cursor: pointer;
+}
+
+.ch-before-after-shortcode:focus {
+    outline: none;
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+}
+
+/* Copy button */
+.ch-copy-shortcode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    min-width: 70px;
+    text-align: center;
+    font-size: 13px;
+    flex-shrink: 0;
+}
+
+.ch-copy-shortcode:hover,
+.ch-copy-shortcode:focus {
+    background: #f0f0f1;
+    border-color: #0a4b78;
+    color: #0a4b78;
+}
+
+.ch-copy-shortcode .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+
+/* Copied notification */
+.ch-before-after-copied {
+    display: inline-block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    z-index: 9999;
+    opacity: 0;
+    animation: ch-before-after-fade 2s forwards;
+}
+
+@keyframes ch-before-after-fade {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
